@@ -19,10 +19,13 @@ This design enables reasoning over heterogeneous document content such as paragr
 ## 🧱 Chunking Strategies Compared
 This project treats **chunking as a modeling design choice** rather than a fixed preprocessing step.
 Two chunking strategies are compared, each with different implications for runtime, scalability, and answer quality:
+
 * Document-level chunking: pages are merged before segmentation, allowing cross-page context but requiring metadata recovery
 ![Document-level chunking Overview](figures/Document_level_chunking.drawio.png)
+
 * Page-level chunking: chunks are created within page boundaries, preserving metadata by design and reducing overhead
-![Page-level chunking Overview](figures/Page-level_chunking.drawio.png)
+![Page-level chunking overview](figures/Page_level_chunking.drawio.png)
+
 
 ## 🎯 Data Science Objectives
 1. Quantify trade-offs between computational efficiency and answer quality
