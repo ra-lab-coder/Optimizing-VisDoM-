@@ -13,7 +13,7 @@ This project studies these questions using VisDoMRAG, a multimodal RAG system th
 ## 🧩 System Overview
 The system follows a **multimodal RAG architecture,** where textual and visual evidence are retrieved separately from PDF documents and fused to generate final answers.
 This design enables reasoning over heterogeneous document content such as paragraphs, tables, figures, and slides.
-![VisDoMRAG System Overview](figures/VisDoMRag_detailed.drawio.png)
+<img src="figures/VisDoMRag_detailed.drawio.png" width="1000">
 
 
 ## 🧱 Chunking Strategies Compared
